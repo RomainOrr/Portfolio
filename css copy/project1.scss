@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+height:  100vh;
+margin: 0;
+font-family: 'Poppins';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-container {
+    background: #6700EE;
+
+  a{
+      color: white;
+  }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+.logo {
+    color: #00F7FF;
+    font-weight: bold;
+}
+
+    ul{
+        display: flex;
+
+        a{
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+.social-header, .hero-design {
+    display: none;
+}
+
+
+
+.boxcontent {
+    display: flex;
+    justify-content: center;
+    background:#6E00FF;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+        p {
+            margin-bottom: -1em;
+            color: #FF64CB;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: white;
+        }
+}
+
+.crc {
+    display: flex;
+    justify-content: center;
+
+.circle{
+    width: 200px;
+    height: 100px;
+    border-radius: 0 0 110px 110px;
+    background:  #FF64CB;
+}
+}
+
+.scroll {
+    width: 30px;
+    margin-top: 2em;
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+.subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6E00FF;
+    letter-spacing: .1em;
+    font-size: .85em;
+}
+
+.featured-tittle {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: -.4em;
+    display: block;
+}
+
+.featured-description {
+    color: #252525;
+    margin-bottom: 3em;
+    font-size: .9em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.featured img {
+    width: 330px;
+    display: none;
+}
+
+.skills {
+    background: #FF64CB;
+}
+
+.skills-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    .icon-container {
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+
+        &.one {
+            width: 50px;
+        }
+        &.two {
+            width: 100px;
+        }
+        &.three {
+            width: 50px;
+        }
+    }
+
+}
+
+.skill-tittle {
+    font-weight: bold;
+}
+
+.featured-description {
+    margin-bottom: 2em;
+}
+
+.obj {
+    text-align: left;
+    color: #252525;
+    font-size: .9em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+.cubecontainer {
+    display: flex;
+    justify-content: center;
+}
+.cube {
+    background: #6E00FF ;
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cubedescription {
+    color: white;
+    font-weight: bold;
+}
+.imgcontainer {
+    position: relative;
+}
+.imgcontent {
+    z-index: -1;
+    position: absolute;
+    top: -20px;
+}
+
+
+
+
+
+
